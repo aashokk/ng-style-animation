@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-style-animation';
+
+  CourseGoals = [
+    { title : "ang 1", isActive : true },
+    { title : "ang 2", isActive : false },
+    { title : "ang 3", isActive : false }
+  ];
+  
 }
